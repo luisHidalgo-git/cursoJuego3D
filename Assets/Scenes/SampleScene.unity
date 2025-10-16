@@ -535,7 +535,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   speed: 5
-  gravity: -10
+  gravity: -20
   jumpHeight: 1
   groundCheck: {fileID: 202689051}
   groundDistance: 0.4
