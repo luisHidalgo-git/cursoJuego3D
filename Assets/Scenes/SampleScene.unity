@@ -136,7 +136,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43a7710ac6671b238ae4970397ed717a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  speed: 5
+  walkSpeed: 3
+  runSpeed: 6
   gravity: -20
   jumpHeight: 1.5
   groundCheck: {fileID: 202689051}
@@ -1166,6 +1167,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: bb01f02d07d6cb4aeadf9ec97df6fd0a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 18e0287ce9125f622874b6c2c2b4f261, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
